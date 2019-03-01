@@ -1,0 +1,51 @@
+.style-3 {
+    flex-basis: 500px;
+    display: inline-block;
+    color: #ffffff;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    align-content: center;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+.style-3 del {
+    color: #ffffffbf;
+    text-decoration: none;
+    position: relative;
+    /* font-weight: 100; */
+    padding-top: 5px;
+}
+.style-3 del:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    border-top: 5px double #f90606ad;
+    /* height: 4px; */
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    transform: rotate(-11deg);
+}
+.style-3 ins {
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 5px 0.5em;
+}
+
+
+.discount {
+    background: url(../images/offer.png) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    top: -1px;
+    right: -11px;
+    font-style: italic;
+    font-weight: 900;
+    color: #e7fb50;
+    height: 55px;
+    text-align: center;
+    padding-top: 15px;
+    width: 55px;
+}

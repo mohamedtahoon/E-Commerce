@@ -1,0 +1,37 @@
+.style-3 {
+    margin: 1em;
+    padding: 1em;
+    flex-basis: 500px;
+    display: inline-block;
+    color: #484848;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    align-content: center;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+.style-3 del {
+    color: #33333385;
+    text-decoration: none;
+    position: relative;
+    font-weight: 100;
+    padding-top: 40px;
+}
+.style-3 del:before {
+    content: " ";
+    display: block;
+    width: 100%;
+    border-top: 8px double #33333361;
+    /* height: 4px; */
+    position: absolute;
+    bottom: 28px;
+    left: 0;
+    transform: rotate(-11deg);
+}
+.style-3 ins {
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 1em 1em 1em .5em;
+}
